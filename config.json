@@ -1,0 +1,41 @@
+﻿{
+  "Workers": [
+    {
+      "WorkerId": "Raphael",
+      "Work": [
+        "Command RaphA1, Command RaphA2, Command RaphA3",
+        "Command RaphA1, Command RaphA2",
+        "Command RaphA1"
+      ],
+      "MinAlarmRuntime": 1,
+      "MaxAlarmRuntime": 5,
+      "MinTimeBetweenAlarms": 20,
+      "MaxTimeBetweenAlarms": 40
+    },
+    {
+      "WorkerId": "Leonardo",
+      "Work": [
+        "Command LeoA1",
+        "Command LeoB2, Command LeoB2"
+      ],
+      "MinAlarmRuntime": 5,
+      "MaxAlarmRuntime": 5
+    },
+    {
+      "WorkerId": "Donatello",
+      "Work": [
+        "Command DonA1"
+      ],
+      "MinTimeBetweenAlarms": 60,
+      "MaxTimeBetweenAlarms": 60
+    },
+    {
+      "WorkerId": "Michelangelo",
+      "Work": [
+        "Command MikeyA1, Command MikeyA2, Command MikeyA3",
+        "Command MikeyB1",
+        "Command MikeyC1, Command MikeyC2, Command MikeyC3"
+      ]
+    }
+  ]
+}
