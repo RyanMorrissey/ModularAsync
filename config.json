@@ -19,13 +19,17 @@
         "Command LeoB2, Command LeoB2"
       ],
       "MinAlarmRuntime": 5,
-      "MaxAlarmRuntime": 5
+      "MaxAlarmRuntime": 5,
+      "MinTimeBetweenAlarms": 20,
+      "MaxTimeBetweenAlarms": 40
     },
     {
       "WorkerId": "Donatello",
       "Work": [
         "Command DonA1"
       ],
+      "MinAlarmRuntime": 1,
+      "MaxAlarmRuntime": 1,
       "MinTimeBetweenAlarms": 60,
       "MaxTimeBetweenAlarms": 60
     },
@@ -35,7 +39,11 @@
         "Command MikeyA1, Command MikeyA2, Command MikeyA3",
         "Command MikeyB1",
         "Command MikeyC1, Command MikeyC2, Command MikeyC3"
-      ]
+      ],
+	  "MinAlarmRuntime": 1,
+      "MaxAlarmRuntime": 60,
+      "MinTimeBetweenAlarms": 1,
+      "MaxTimeBetweenAlarms": 60
     }
   ]
 }
